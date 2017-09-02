@@ -4,6 +4,10 @@ import StyleDemo from './activity/StyleDemoActivity'
 import ViewDemo from './activity/ViewsDemoActivity'
 import ListViewDemo from './activity/ListViewDemoActivity'
 import ListViewDemo2 from './activity/ListViewDemo2'
+import LoginDemo from "./activity/LoginActivity"
+import Srcollview from "./activity/SrcollviewDemo"
+import NewWorkDemo from "./activity/NetWorkDemoActivity"
+import AnimationDemo from "./activity/AnimationDemoActivity"
 
 class Index extends Component {
     render() {
@@ -11,7 +15,7 @@ class Index extends Component {
 
             <View style={{flex:1}}>
 
-                <ListViewDemo/>
+                <AnimationDemo/>
 
             </View>
 

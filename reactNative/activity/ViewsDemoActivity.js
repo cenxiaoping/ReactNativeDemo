@@ -12,7 +12,7 @@ const onButtonPress = () => {
             <View style={Styles.style_rootview}>
                 <Text style={Styles.style_textview}>这是一个Text控件</Text>
                 <Button onPress={onButtonPress} color="#770ab9" title="这是Button"/>
-                <Image style={Styles.style_image} source={{uri: 'http://facebook.github.io/react/img/logo_og.png'}}/>
+                <Image style={Styles.style_image} source={{uri: 'https://dummyimage.com/1200x600/f4bee6)'}}/>
                 <TextInput
                     maxLength={5}
                     placeholderTextColor="#ff0000"
