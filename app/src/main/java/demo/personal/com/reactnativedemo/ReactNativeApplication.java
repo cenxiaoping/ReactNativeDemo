@@ -31,7 +31,8 @@ public class ReactNativeApplication extends Application implements ReactApplicat
         @Override
         protected List<ReactPackage> getPackages() {
             return Arrays.<ReactPackage>asList(
-                    new MainReactPackage()
+                    new MainReactPackage(),
+                    new TestReactPackage()//这是刚刚注册原生模块的类
             );
         }
     };

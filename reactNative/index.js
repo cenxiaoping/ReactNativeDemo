@@ -8,6 +8,8 @@ import LoginDemo from "./activity/LoginActivity"
 import Srcollview from "./activity/SrcollviewDemo"
 import NewWorkDemo from "./activity/NetWorkDemoActivity"
 import AnimationDemo from "./activity/AnimationDemoActivity"
+import FlatListDemo from "./activity/FlatListDemoActivity"
+import CallNative from "./activity/CallNativeDemoActivity"
 
 class Index extends Component {
     render() {
@@ -15,7 +17,7 @@ class Index extends Component {
 
             <View style={{flex:1}}>
 
-                <AnimationDemo/>
+                <Srcollview/>
 
             </View>
 
