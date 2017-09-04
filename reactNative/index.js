@@ -10,6 +10,7 @@ import NewWorkDemo from "./activity/NetWorkDemoActivity"
 import AnimationDemo from "./activity/AnimationDemoActivity"
 import FlatListDemo from "./activity/FlatListDemoActivity"
 import CallNative from "./activity/CallNativeDemoActivity"
+import Navigation from "./navigation/NavigationDemoActivity"
 
 class Index extends Component {
     render() {
@@ -17,7 +18,7 @@ class Index extends Component {
 
             <View style={{flex:1}}>
 
-                <Srcollview/>
+                <Navigation/>
 
             </View>
 

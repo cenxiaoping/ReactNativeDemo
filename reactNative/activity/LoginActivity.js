@@ -2,7 +2,12 @@ import React, {Component} from 'react';
 import {TextInput, View, Text, Button, StyleSheet} from 'react-native';
 
 export default class LoginActivity extends Component {
+    static navigationOptions = ({navigation})=>({
+       title: `${navigation.state.params.name}`,
+     });
+
     render() {
+       const { params } = this.props.navigation.state;
         return (
             <View style={styles.style_rootview}>
                 <TextInput
@@ -18,7 +23,7 @@ export default class LoginActivity extends Component {
                     style={styles.style_textInput}
                 />
                 <View style={{marginRight: 15, marginLeft: 15}}>
-                    <Button style={{color: "#ff0000"}} title="登录" onPress={() => this.login()}/>
+                    <Button style={{color: "#ff0000"}} title={params.name} onPress={() => this.login()}/>
                 </View>
                 <View style={{
                     flexDirection: "row",

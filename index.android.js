@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {AppRegistry} from 'react-native';
 
-import index from './reactNative/index.js'
+import starpUp from './reactNative/index.js'
 
-AppRegistry.registerComponent('ReactNative', () => index);
+AppRegistry.registerComponent('ReactNative', () => starpUp);
